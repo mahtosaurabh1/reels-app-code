@@ -1,0 +1,64 @@
+.feed-header{
+    height: 5rem;
+    /* border-bottom: 2px solid grey; */
+    background-color:RGB(35, 34, 52);
+    box-shadow: 0px 3px 5px black;
+    font-size: 1.2rem;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+.fheader :hover{
+    background-color: blueviolet;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload_container{
+    border: 3px solid grey;
+    width: 7rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.input-upload{
+     width: 6rem;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 12rem;
+    right: 20px;
+}
+.reels_container{
+    margin-top: 5.5rem;
+}
+button{
+    color: black;
+    background-color: white;;
+    border: none;
+    font-size: 1.2rem;
+    padding: 5px;
+    cursor: pointer;
+}

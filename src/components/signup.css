@@ -1,0 +1,51 @@
+.signup-header{
+    height: 5rem;
+    /* border-bottom: 2px solid grey; */
+    background-color:RGB(35, 34, 52);
+    box-shadow: 0px 3px 5px black;
+    font-size: 1.2rem;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-header :hover{
+    background-color: blueviolet;
+}
+
+.signup-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blueviolet;
+    color: white;
+    width:25rem;
+    height: 25rem;
+    margin-top: 3rem;
+    border-radius:2rem;
+}
+.signupmain{
+    display: flex;
+    justify-content:center ;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.input-grp input{
+    height: 2rem;
+    width: 17rem;
+    font-size: 1.2rem;
+    padding-left: 3px;
+    margin: 3px;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+}
+.createacnt{
+    margin-bottom: 1rem;
+}
+.footer{
+    position: relative;
+    bottom: 6rem;
+}
