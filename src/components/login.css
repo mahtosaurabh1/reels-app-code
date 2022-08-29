@@ -4,6 +4,7 @@
    align-items: center;
    margin-top: 1rem;
    flex-wrap: wrap;
+   gap:1rem;
 }
 .mainbody img{
   border: solid 2px blueviolet;
