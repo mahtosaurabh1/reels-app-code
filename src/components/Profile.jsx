@@ -24,8 +24,8 @@ function Profile(){
     },[])
 
     return (
-            <>
-                {loading == true?<div>...Loading</div>:    
+        <>
+        {loading == true?<div>...Loading</div>:    
             <>
          <div className="pheader">
          <div

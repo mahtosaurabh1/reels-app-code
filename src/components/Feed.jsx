@@ -31,7 +31,7 @@ function Feed() {
                 <img src="https://i.pinimg.com/736x/f3/10/0c/f3100c7d165dba833efa140bc7e9f73c.jpg"
                     className="profile_img"></img>
 
-                <Link to='/profile'><button>Profile</button></Link>    
+                {/* <Link to='/profile'><button>Profile</button></Link>     */}
                 <button onClick={() => { auth.signOut() }}>Logout</button>
             </div>
            </div>

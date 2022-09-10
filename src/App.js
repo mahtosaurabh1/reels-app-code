@@ -1,6 +1,4 @@
 
-
-
 // npm install react-router-dom@5.3.1
 import './App.css';
 import Feed from "./components/Feed"
@@ -29,9 +27,9 @@ function App() {
       {/* <Route path="/signup">
        <Signup></Signup>
       </Route> */}
-      <PrivateRoute path="/profile" comp = {Profile}>
+      {/* <PrivateRoute path="/profile"  comp = {Profile}>
 
-      </PrivateRoute>
+      </PrivateRoute> */}
       {/* <Route path="/profile">
        <Profile></Profile>
       </Route> */}
@@ -79,4 +77,3 @@ function RedirectToFeed(props){
 
 
 export default App;
-
