@@ -5,13 +5,15 @@
     scroll-snap-align: start;
     position: relative;
 }
+
 .post-btn{
-border: 1px solid black;
-width: 4rem;
-background-color: violet;
-color: white;
-border-radius: 5px;
-}
+    border: 1px solid black;
+    width: 4rem;
+    background-color: violet;
+    color: white;
+    border-radius: 5px;
+    }
+
 .video-card-username{
     z-index:1;
     position: absolute;
@@ -43,11 +45,13 @@ border-radius: 5px;
 
 .comment-form{
     height: 10%;
-    display: flex;
 }
 
 .comment-form input{
     width: 85%;
+    outline: none;
+    font-size: 1.2rem;
+
 }
 
 
@@ -63,17 +67,9 @@ border-radius: 5px;
     position: absolute;
     top: 20rem;
     right: 20px;
+    
 }
 
-/* .video-card-comment-box {
-    height: 40%;
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-   z-index: 2;
-   cursor: pointer;
-  } */
 
   .video-card-like {
     z-index: 2;
@@ -84,6 +80,13 @@ border-radius: 5px;
     right: 20px;
     cursor: pointer;
   }
-  
+
+.video-card-comment-box{
+    background-color:  RGB(31, 27, 44);
+    color: white;
+}
+  .post-user-comment{
+    display: flex;
+  }
 
 
