@@ -94,7 +94,7 @@ const VideoCard = (props) => {
                 value={currUserComment}
                 onChange={(e) => setCurrUserComment(e.currentTarget.value)}
               />
-              <button
+              <button className="post-btn"
                 onClick={async () => {
                   let commentId = user.uid + "$" + Date.now();
                   await setDoc(doc(db, "comments", commentId), {

@@ -5,7 +5,13 @@
     scroll-snap-align: start;
     position: relative;
 }
-
+.post-btn{
+border: 1px solid black;
+width: 4rem;
+background-color: violet;
+color: white;
+border-radius: 5px;
+}
 .video-card-username{
     z-index:1;
     position: absolute;
